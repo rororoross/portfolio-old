@@ -1,0 +1,119 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite,
+code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, 
+figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video 
+{	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
+section {	display: block;}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}table {	border-collapse: collapse;	border-spacing: 0;}
+
+body {
+	width: 100%;
+	height: 200%;
+	font-family: 'Roboto Condensed', sans-serif;
+	max-width: 1920px;
+}
+
+header {
+	padding: 10px;
+	font-size: 1.5rem;
+}
+
+.phone {
+	width: 23%;
+	padding-top: 15px;
+}
+
+#phone2 {
+	-webkit-animation-delay: 0.25s;
+}
+
+#phone3 {
+	-webkit-animation-delay: 0.5s;
+}
+
+#phone4 {
+	-webkit-animation-delay: 0.75s;
+	margin-right: 30%;
+}
+
+#phone5 {
+	-webkit-animation-delay: 1s;
+}
+
+#phone6 {
+	-webkit-animation-delay: 1.25s;
+}
+
+#phone7 {
+	-webkit-animation-delay: 1.50s;
+}
+
+#phone8 {
+	-webkit-animation-delay: 1.75s;
+}
+
+#phone9 {
+	-webkit-animation-delay: 2s;
+	padding-right: 1%;
+}
+
+/*-----------Media Query for Home Tab 800px - 1100px -----------*/
+@media only screen and (min-width:50em) and (max-width:68.75em) {
+
+body {
+	width: 100%;
+	height: 200%;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.phone {
+	width: 29%;
+	padding-top: 15px;
+}
+
+#phone4 {
+	-webkit-animation-delay: 0.75s;
+	margin-right: 0%;
+}
+
+}
+
+/*-----------Media Query for Home Tab 660px - 800px -----------*/
+@media only screen and (min-width:41.25em) and (max-width:50em) {
+
+body {
+	width: 200%;
+	height: 200%;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.phone {
+	width: 23%;
+	padding-top: 15px;
+}
+
+}
+
+/*-----------Media Query for Home Tab 0px - 660px -----------*/
+@media only screen and (min-width:0em) and (max-width:41.25em) {
+
+body {
+	width: 200%;
+	height: 200%;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.phone {
+	width: 25%;
+	padding-top: 15px;
+}
+
+#phone4 {
+	-webkit-animation-delay: 0.75s;
+	margin-right: 0%;
+}
+
+}

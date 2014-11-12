@@ -1,0 +1,1926 @@
+﻿html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite,
+code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, 
+figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video 
+{   margin: 0;  padding: 0; border: 0;  font-size: 100%;    font: inherit;  vertical-align: baseline;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
+section {   display: block;}body {  line-height: 1;}ol, ul {    list-style: none;}blockquote, q {   quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after { content: '';    content: none;}table {  border-collapse: collapse;  border-spacing: 0;}
+
+body {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    font-family: 'bebas_neue_regularregular';
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
+@font-face {
+    font-family: 'bebas_neuebook';
+    src: url('../fonts/bebasneue_book-webfont.eot');
+    src: url('../fonts/bebasneue_book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebasneue_book-webfont.woff') format('woff'),
+         url('../fonts/bebasneue_book-webfont.ttf') format('truetype'),
+         url('../fonts/bebasneue_book-webfont.svg#bebas_neuebook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bebas_neue_regularregular';
+    src: url('../fonts/bebasneue_regular-webfont.eot');
+    src: url('../fonts/bebasneue_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebasneue_regular-webfont.woff') format('woff'),
+         url('../fonts/bebasneue_regular-webfont.ttf') format('truetype'),
+         url('../fonts/bebasneue_regular-webfont.svg#bebas_neue_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bebas_neuebold';
+    src: url('../fonts/bebasneue_bold-webfont.eot');
+    src: url('../fonts/bebasneue_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebasneue_bold-webfont.woff') format('woff'),
+         url('../fonts/bebasneue_bold-webfont.ttf') format('truetype'),
+         url('../fonts/bebasneue_bold-webfont.svg#bebas_neuebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#horizontalTab {
+    width: 100%;
+    height: 100%;
+}
+
+/* Navigation */
+.resp-tabs-list {
+    margin: 0 auto;
+    padding-top: .55%;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    -webkit-animation-delay: 0.55s;
+    -ms-animation-delay: 0.55s;
+    animation-delay: 0.55s;
+    width: 100%;
+}
+
+.resp-tabs-list li {
+    display: inline;
+    font-size: 2.25rem;
+    cursor: pointer;
+    border: none;
+    margin: 0 0.5% 0 0.5%;
+    padding: 0 0 0 0%;
+    letter-spacing: 0.0.5rem;
+    text-align: left;
+}
+
+.mobile-home :hover {
+    padding: 0;
+    margin: 0;
+    border-bottom: 5px solid white !important;
+}
+
+.resp-tab-active {
+    padding: 0;
+    margin: 0;
+    border-bottom: 5px solid white !important;
+}
+
+/* Home */
+.home {
+    margin: 0 auto;
+    color: white;
+}
+
+/* Logo */
+.homecontent {
+    width: 100%;
+    background-image: url(../images/rflogoshadow.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 390px;
+    margin-left: -12.5%;
+}
+
+/* Ross Fenrick */
+.homecontent h1 {
+    font-family: 'bebas_neuebold';
+    font-size: 8rem;
+    display: block;
+    margin-left: 43.28%;
+    margin-top: 5%;
+    padding-top: 290px;
+    padding-left: 7.25%;
+    line-height: 0.2;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.14);
+    -webkit-animation-delay: 0.35s;
+    -ms-animation-delay: 0.35s;
+    animation-delay: 0.35s;
+}
+
+/* Web Design & Development */
+.homecontent h2 {
+    font-size: 2rem;
+    letter-spacing: 0.7rem;
+    display: block;
+    margin-left: 43.28%;
+    padding-top: 50px;
+    padding-left: 7.5%;
+    line-height: 0.1;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.14);
+    -webkit-animation-delay: 0.35s;
+    -ms-animation-delay: 0.35s;
+    animation-delay: 0.35s;
+}
+
+/* Circles */
+.scratch {
+    float: left;
+    margin-left: 38%;
+    margin-top: 5%;
+    width: 15%;
+    -webkit-animation-delay: 0.35s;
+    -ms-animation-delay: 0.35s;
+    animation-delay: 0.35s;
+}
+
+.work {
+    float: left;
+    padding-left: 1%;
+    margin-top: 5%;
+    width: 15%;
+    -webkit-animation-delay: 0.55s;
+    -ms-animation-delay: 0.55s;
+    animation-delay: 0.55s;
+}
+
+.touch {
+    float: left;
+    padding-left: 1%;
+    margin-top: 5%;
+    width: 15%;
+    -webkit-animation-delay: 0.75s;
+    -ms-animation-delay: 0.75s;
+    animation-delay: 0.75s;
+}
+
+.scratch img{
+    width: 45%;
+    height: auto;
+    padding-left: 27%;
+}
+
+.work img{
+    width: 45%;
+    height: auto;
+    padding-left: 27.5%;
+}
+
+.touch img{
+    width: 45%;
+    height: auto;
+    padding-left: 27%;
+}
+
+/* Circle text */
+.mywork {
+    width: 100%;
+    height: 100%;
+}
+
+.scratch p {
+    font-family: 'Open Sans Condensed', 'sans-serif';
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 1.35;
+    padding-top: 6%;
+}
+
+.work p {
+    font-family: 'Open Sans Condensed', 'sans-serif';
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 1.35;
+    padding-top: 6%;
+}
+
+.touch p {
+    font-family: 'Open Sans Condensed', 'sans-serif';
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 1.35;
+    padding-top: 6%;
+}
+
+/* My Work Section (Tab 2) */
+
+.my-work {
+    width: 100%;
+    margin: 2% 0 0 0;
+    padding: 0;
+    font-family: 'bebas_neuebold';
+    font-size: 2rem;
+    color: white;
+}
+
+.my-work a {
+    text-decoration: none;
+    color: white;
+}
+
+.project-left {
+    width: 45%;
+    float: left;
+    text-align: center;
+    margin-left: 5%;
+}
+
+.project-right {
+    width: 45%;
+    float: left;
+    text-align: center;
+    margin-left: 0;
+}
+
+.project-left-last {
+    width: 45%;
+    float: left;
+    text-align: center;
+    margin-left: 5%;
+    padding-bottom: 5%;
+}
+
+.project-right-last {
+    width: 45%;
+    float: left;
+    text-align: center;
+    margin-left: 0;
+    padding-bottom: 5%;
+}
+
+.web-project {
+    width: 55%;
+    height: auto;
+    padding: 6% 0 0 0%;
+}
+
+.mobile-project {
+    width: 25%;
+    height: auto;
+    padding: 6% 0 0 0%;
+}
+
+.graphic-project {
+    width: 50%;
+    height: auto;
+    padding: 6% 0 0 0%;
+}
+
+.project-type {
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* About Me Section (Tab 3) */
+.aboutme {
+    margin-top: 5%;
+    font-family: 'Open Sans Condensed', 'sans-serif';
+    font-size: 1.2rem;
+    text-align: justify;
+    color: white;
+}
+
+.left_column {
+    width: 25%;
+    float: left;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.left_column a {
+    text-decoration: underline;
+    color: white;
+}
+
+.right_column {
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 0;
+    float: left;
+}
+
+.bio {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 0 3% 35%;
+    -webkit-animation-delay: 0.1s;
+    -ms-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+
+.left_column img {
+    width: 35%;
+    height: auto;
+}
+
+.bio_description {
+    -webkit-animation-delay: 0.15s;
+    -ms-animation-delay: 0.15s;
+    animation-delay: 0.15s;
+}
+
+.idea {
+    float: left;
+    width: 30%;
+    padding: 0;
+}
+
+.research {
+    float: left;
+    width: 30%;
+    padding-left: 5%;
+}
+
+.sketch {
+    float: left;
+    width: 30%;
+    padding-left: 5%;
+}
+
+.design {
+    float: left;
+    width: 30%;
+    padding-top: 2%;
+}
+
+.develop {
+    float: left;
+    width: 30%;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+.launch {
+    float: left;
+    width: 30%;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+.idea_img {
+    width: 50%;
+    padding: 0 0 5% 25%;
+    -webkit-animation-delay: 0.05s;
+    -ms-animation-delay: 0.05s;
+    animation-delay: 0.05s;
+}
+
+.idea_description {
+    -webkit-animation-delay: 0.35s;
+    -ms-animation-delay: 0.35s;
+    animation-delay: 0.35s;
+}
+
+.research_img {
+    width: 50%;
+    padding: 0 0 5% 25%;
+    -webkit-animation-delay: 0.1s;
+    -ms-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+
+.research_description {
+    -webkit-animation-delay: 0.40s;
+    -ms-animation-delay: 0.40s;
+    animation-delay: 0.40s;
+}
+
+.sketch_img {
+    width: 50%;
+    padding: 0 0 5% 25%;
+    -webkit-animation-delay: 0.15s;
+    -ms-animation-delay: 0.15s;
+    animation-delay: 0.15s;
+}
+
+.sketch_description {
+    -webkit-animation-delay: .45s;
+    -ms-animation-delay: 0.45s;
+    animation-delay: .45s;
+}
+
+.design_img {
+    width: 50%;
+    padding: 0 0 5% 25%;
+    -webkit-animation-delay: 0.20s;
+    -ms-animation-delay: 0.20s;
+    animation-delay: 0.20s;
+}
+
+.design_description {
+    -webkit-animation-delay: .5s;
+    -ms-animation-delay: 0.5s;
+    animation-delay: .5s;
+}
+
+.develop_img {
+    width: 50%;
+    padding: 0 0 5% 25%;
+    -webkit-animation-delay: 0.25s;
+    -ms-animation-delay: 0.25s;
+    animation-delay: 0.25s;
+}
+
+.develop_description {
+    -webkit-animation-delay: 0.55s;
+    -ms-animation-delay: 0.55s;
+    animation-delay: 0.55s;
+}
+
+.launch_img {
+    width: 50%;
+    padding: 0 0 5% 25%;
+    -webkit-animation-delay: 0.30s;
+    -ms-animation-delay: 0.30s;
+    animation-delay: 0.30s;
+}
+
+.launch_description {
+    -webkit-animation-delay: 0.60s;
+    -ms-animation-delay: 0.60s;
+    animation-delay: 0.60s;
+}
+
+.aboutme span {
+    font-style: italic;
+}
+
+.aboutme h1 {
+    font-family: 'bebas_neuebold';
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: none;
+    color: #fff;
+    -webkit-animation-delay: 0.35s;
+    -ms-animation-delay: 0.35s;
+    animation-delay: 0.35s;
+}
+
+.aboutme h2 {
+    font-family: 'bebas_neuebold';
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: none;
+    color: #fff;
+    -webkit-animation-delay: 0.4s;
+    -ms-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+
+.aboutme h3 {
+    font-family: 'bebas_neuebold';
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: none;
+    color: #fff;
+    -webkit-animation-delay: 0.45s;
+    -ms-animation-delay: 0.45s;
+    animation-delay: 0.45s;
+}
+
+.aboutme h4 {
+    font-family: 'bebas_neuebold';
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: none;
+    color: #fff;
+    -webkit-animation-delay: 0.5s;
+    -ms-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+
+.aboutme h5 {
+    font-family: 'bebas_neuebold';
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: none;
+    color: #fff;
+    -webkit-animation-delay: 0.55s;
+    -ms-animation-delay: 0.55s;
+    animation-delay: 0.55s;
+}
+
+.aboutme h6 {
+    font-family: 'bebas_neuebold';
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: none;
+    color: #fff;
+    -webkit-animation-delay: 0.60s;
+    -ms-animation-delay: 0.60s;
+    animation-delay: 0.60s;
+}
+
+.italic {
+    text-align: justify;
+}
+
+/* Get in Touch Section */
+.getintouch {
+    -webkit-animation-delay: 0.05s;
+    -ms-animation-delay: 0.05s;
+    animation-delay: 0.05s;
+}
+
+form {
+  margin: 0 auto;
+  width: 50%;
+}
+
+
+label {
+  /* To make sure that all label have the same size and are properly align */
+  display: inline;
+}
+
+input, textarea {
+  /* To make sure that all text field have the same font settings
+     By default, textarea are set with a monospace font */
+  font-size: 1.25rem;
+  color: white;
+  font-family: 'Open Sans Condensed', 'sans-serif';
+
+  /* To give the same size to all text field */
+  width: 100%;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+
+  /* To harmonize the look & feel of text field border */
+  border: 2px solid #fff;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+textarea {
+  /* To properly align multiline text field with their label */
+  vertical-align: top;
+
+  /* To give enough room to type some text */
+  height: 10em;
+
+  /* To allow users to resize any textarea vertically
+     It works only on Chrome, Firefox and Safari */
+  resize: vertical;
+}
+
+.buttonform {
+    padding-top: 2%;
+    text-align: center;
+}
+
+#send {
+    border: 2px solid white;
+    background: none;
+    color: white;
+    font-size: 1.75rem;
+    font-family: 'Open Sans Condensed', 'sans-serif';
+    padding: 2px 20px 2px 20px;
+}
+
+button {
+  /* This extra magin represent the same space as the space between
+     the labels and their text fields */
+  margin-left: .5em;
+}
+
+#msg {
+    width: 90%;
+    margin: 2.5% 0 0 5%;
+    background-color: rgba(0,0,0,0);
+    padding: 10px;
+}
+
+#name {
+    width: 90%;
+    float: left;
+    margin: 2.5% 0 0 5%;
+    display: inline;
+    background-color: rgba(0,0,0,0);
+    height: 5%;
+    padding: 10px;
+}
+
+#mail {
+    width: 90%;
+    margin: 2.5% 0 0 5%;
+    padding: 0;
+    float: left;
+    display: inline;
+    background-color: rgba(0,0,0,0);
+    padding: 10px;
+}
+
+::-webkit-input-placeholder {
+   color: white;
+   font-family: 'Open Sans Condensed', 'sans-serif';
+   vertical-align: top;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;  
+}
+
+:-ms-input-placeholder {  
+   color: white;  
+}
+
+#mail:focus::-webkit-input-placeholder {
+  transition: opacity 0.5s 0.5s ease; 
+  opacity: 0;
+}
+
+#name:focus::-webkit-input-placeholder {
+  transition: opacity 0.5s 0.5s ease; 
+  opacity: 0;
+}
+
+#msg:focus::-webkit-input-placeholder {
+  transition: opacity 0.5s 0.5s ease; 
+  opacity: 0;
+}
+
+.name {
+    display: inline;
+
+}
+
+.mails {
+    display: inline;
+}
+
+.msg {
+    padding-top: 7%;
+}
+
+.together {
+    color: white;
+    font-size: 3rem;
+    font-family: 'Open Sans Condensed', 'sans-serif';
+    padding: 3% 0 1% 0;
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+}
+
+.to-do {
+    font-size: 3rem;
+}
+
+.contact {
+    font-family: 'Open Sans Condensed', 'sans-serif';
+    color: white;
+    font-size: 1.25rem;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.linkedinbox {
+    width: 10%;
+    float: left;
+    margin-left: 32%;
+    -webkit-animation-delay: 0.25s;
+    -ms-animation-delay: 0.25s;
+    animation-delay: 0.25s;
+}
+
+.phonebox {
+    width: 10%;
+    float: left;
+    padding-left: 3%;
+    -webkit-animation-delay: 0.5s;
+    -ms-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+
+}
+
+.mailbox {
+    width: 10%;
+    float: left;
+    padding-left: 3%;
+    -webkit-animation-delay: 0.75s;
+    -ms-animation-delay: 0.75s;
+    animation-delay: 0.75s;
+}
+
+.linkedin {
+    width: 60%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.phone {
+    width: 60%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.mail {
+    width: 60%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.linkedinbox p {
+    display: block;
+    padding-top: 4%;
+}
+
+.phonebox p {
+    display: block;
+    padding-top: 4%;
+}
+
+.mailbox p {
+    display: block;
+    padding-top: 4%;
+}
+
+.resp-tabs-container {
+    padding: 0px;
+    clear: left;
+}
+
+h2.resp-accordion {
+    cursor: pointer;
+    padding: 5px;
+    display: none;
+}
+
+.resp-tab-content {
+    display: none;
+}
+
+h2.resp-accordion {
+    font-size: 13px;
+    border: 1px solid #c1c1c1;
+    border-top: 0px solid #c1c1c1;
+    margin: 0px;
+    padding: 10px 15px;
+}
+
+h2.resp-tab-active {
+    border-bottom: 15px solid #c1c1c1 !important;
+    margin-bottom: 0px !important;
+    padding: 10px 15px !important;
+}
+
+h2.resp-tab-title:last-child {
+    border-bottom: 12px solid #c1c1c1 !important;
+    background: blue;
+}
+
+.animated2 {
+  -webkit-animation-duration: 1.25s;
+  -ms-animation-duration: 1.25s;
+  animation-duration: 1.25s;
+  -webkit-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated3 {
+  -webkit-animation-duration: 2.5s;
+  -ms-animation-duration: 2.5s;
+  animation-duration: 2.5s;
+  -webkit-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries Start Here (Largest to Smallest) */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------Media Query for Home Tab 1500px - 1700px-----------*/
+@media only screen and (min-width:93.75em) and (max-width:106.25em) {
+
+.scratch {
+    float: left;
+    margin-left: 40%;
+    margin-top: 5%;
+    width: 15%;
+}
+
+
+} /*-----------End of Home Tab Media Query 1500px - 1700px -----------*/
+
+
+
+
+
+/*-----------Media Query for Home Tab 1400 - 1500px -----------*/
+@media only screen and (min-width:87.5em) and (max-width:93.75em) {
+
+/* Logo */
+.homecontent {
+    width: 100%;
+    background-image: url(../images/rflogoshadowsmaller.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 248px;
+    margin-left: -15%;
+}
+
+.scratch {
+    float: left;
+    margin-left: 40%;
+    margin-top: 5%;
+    width: 15%;
+}
+
+/* Ross Fenrick */
+.homecontent h1 {
+    font-family: 'bebas_neuebold';
+    font-size: 7rem;
+    display: block;
+    margin-left: 43.28%;
+    margin-top: 5%;
+    padding-top: 190px;
+    padding-left: 7.25%;
+    line-height: 0.2;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.14);
+    -webkit-animation-delay: 0.35s;
+    -ms-animation-delay: 0.35s;
+    animation-delay: 0.35s;
+}
+
+/* Web Design & Development */
+.homecontent h2 {
+    font-size: 1.5rem;
+    letter-spacing: 0.71rem;
+    display: block;
+    margin-left: 43.28%;
+    padding-top: 50px;
+    padding-left: 7.5%;
+    line-height: 0.1;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.14);
+    -webkit-animation-delay: 0.35s;
+    -ms-animation-delay: 0.35s;
+    animation-delay: 0.35s;
+}
+
+}/*-----------End of Media Query for Home Tab 1400 - 1500px -----------*/
+
+
+/*-----------Media Query for Home Tab 1300 - 1400px -----------*/
+@media only screen and (min-width:81.25em) and (max-width:87.5em) {
+
+/* Logo */
+.homecontent {
+    width: 100%;
+    background-image: url(../images/rflogoshadowsmaller.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 248px;
+    margin-left: -15%;
+}
+
+.scratch {
+    float: left;
+    margin-left: 41%;
+    margin-top: 5%;
+    width: 15%;
+}
+
+/* Ross Fenrick */
+.homecontent h1 {
+    font-family: 'bebas_neuebold';
+    font-size: 7rem;
+    display: block;
+    margin-left: 43.28%;
+    margin-top: 5%;
+    padding-top: 190px;
+    padding-left: 7.25%;
+    line-height: 0.2;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.14);
+    -webkit-animation-delay: 0.35s;
+    -ms-animation-delay: 0.35s;
+    animation-delay: 0.35s;
+}
+
+/* Web Design & Development */
+.homecontent h2 {
+    font-size: 1.5rem;
+    letter-spacing: 0.71rem;
+    display: block;
+    margin-left: 43.28%;
+    padding-top: 50px;
+    padding-left: 7.5%;
+    line-height: 0.1;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.14);
+    -webkit-animation-delay: 0.35s;
+    -ms-animation-delay: 0.35s;
+    animation-delay: 0.35s;
+}
+
+}/*-----------End of Media Query for Home Tab 1300 - 1400px -----------*/
+
+
+
+
+
+/*-----------Media Query for Home Tab 1100 - 1300px -----------*/
+@media only screen and (min-width:68.75em) and (max-width:81.25em) {
+
+/* Logo */
+.homecontent {
+    width: 100%;
+    background-image: url(../images/rflogoshadowsmaller.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 248px;
+    margin-left: -16%;
+}
+
+.scratch {
+    float: left;
+    margin-left: 42%;
+    margin-top: 5%;
+    width: 15%;
+}
+
+/* Ross Fenrick */
+.homecontent h1 {
+    font-family: 'bebas_neuebold';
+    font-size: 7rem;
+    display: block;
+    margin-left: 43.28%;
+    margin-top: 5%;
+    padding-top: 190px;
+    padding-left: 7.25%;
+    line-height: 0.2;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.14);
+    -webkit-animation-delay: 0.35s;
+    -ms-animation-delay: 0.35s;
+    animation-delay: 0.35s;
+}
+
+/* Web Design & Development */
+.homecontent h2 {
+    font-size: 1.5rem;
+    letter-spacing: 0.71rem;
+    display: block;
+    margin-left: 43.28%;
+    padding-top: 50px;
+    padding-left: 7.5%;
+    line-height: 0.1;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.14);
+    -webkit-animation-delay: 0.35s;
+    -ms-animation-delay: 0.35s;
+    animation-delay: 0.35s;
+}
+
+.linkedinbox {
+    width: 12%;
+    float: left;
+    margin-left: 29%;
+    margin-top: 0em;
+}
+
+.phonebox {
+    width: 12%;
+    float: left;
+    padding-left: 3%;
+}
+
+.mailbox {
+    width: 12%;
+    float: left;
+    padding-left: 3%;
+}
+
+}/*-----------End of Media Query for Home Tab 1100 - 1300px -----------*/
+
+
+
+
+
+
+/*-----------Media Query for Home Tab 976 - 1100px -----------*/
+@media only screen and (min-width:61em) and (max-width:68.75em) {
+
+/* Logo */
+.homecontent {
+    width: 100%;
+    background-image: url(../images/rflogoshadowsmaller.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 248px;
+    margin-left: -21%;
+}
+
+.scratch {
+    float: left;
+    margin-left: 46%;
+    margin-top: 5%;
+    width: 15%;
+}
+
+/* Ross Fenrick */
+.homecontent h1 {
+    font-family: 'bebas_neuebold';
+    font-size: 7rem;
+    display: block;
+    margin-left: 43.28%;
+    margin-top: 5%;
+    padding-top: 190px;
+    padding-left: 7.25%;
+    line-height: 0.2;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.14);
+    -webkit-animation-delay: 0.35s;
+    -ms-animation-delay: 0.35s;
+    animation-delay: 0.35s;
+}
+
+/* Web Design & Development */
+.homecontent h2 {
+    font-size: 1.5rem;
+    letter-spacing: 0.71rem;
+    display: block;
+    margin-left: 43.28%;
+    padding-top: 50px;
+    padding-left: 7.5%;
+    line-height: 0.1;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.14);
+    -webkit-animation-delay: 0.35s;
+    -ms-animation-delay: 0.35s;
+    animation-delay: 0.35s;
+}
+
+.linkedinbox {
+    width: 12%;
+    float: left;
+    margin-left: 29%;
+    margin-top: 0em;
+}
+
+.phonebox {
+    width: 12%;
+    float: left;
+    padding-left: 3%;
+}
+
+.mailbox {
+    width: 12%;
+    float: left;
+    padding-left: 3%;
+}
+
+}/*-----------End of Media Query for Home Tab 976 - 1100px -----------*/
+
+
+
+
+
+/*-----------Media Query for Home Tab 750 - 976px -----------*/
+@media only screen and (min-width:46.875em) and (max-width:61em) {
+
+/* Logo */
+.homecontent {
+    width: 100%;
+    background-image: url(../images/rflogoshadowsmaller.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 248px;
+    margin-left: -21%;
+}
+
+.scratch {
+    float: left;
+    margin-left: 46%;
+    margin-top: 5%;
+    width: 15%;
+}
+
+/* Ross Fenrick */
+.homecontent h1 {
+    font-family: 'bebas_neuebold';
+    font-size: 5rem;
+    display: block;
+    margin-left: 43.28%;
+    margin-top: 5%;
+    padding-top: 190px;
+    padding-left: 7.25%;
+    line-height: 0.1;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.14);
+    -webkit-animation-delay: 0.35s;
+    -ms-animation-delay: 0.35s;
+    animation-delay: 0.35s;
+}
+
+/* Web Design & Development */
+.homecontent h2 {
+    font-size: 1.25rem;
+    letter-spacing: 0.5rem;
+    display: block;
+    margin-left: 43.28%;
+    padding-top: 50px;
+    padding-left: 7.5%;
+    line-height: 0.1;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.14);
+    -webkit-animation-delay: 0.35s;
+    -ms-animation-delay: 0.35s;
+    animation-delay: 0.35s;
+}
+
+.linkedinbox {
+    width: 15%;
+    float: left;
+    margin-left: 25%;
+    margin-top: 0em;
+}
+
+.phonebox {
+    width: 15%;
+    float: left;
+    padding-left: 3%;
+}
+
+.mailbox {
+    width: 15%;
+    float: left;
+    padding-left: 3%;
+}
+
+div + div {
+  margin-top: 0;
+}
+
+
+}/*-----------End of Media Query for Home Tab 750 - 976px -----------*/
+
+
+
+
+
+/*-----------Media Query for Home Tab 0 - 749px -----------*/
+@media only screen and (min-width:0em) and (max-width:46.8em) {
+
+body {
+    overflow: visible;
+}
+
+/* Logo */
+.homecontent {
+    width: 100%;
+    background-image: url(../images/rflogoshadowsmaller.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 248px;
+    margin: 0 auto;
+    top: 40px;
+    position: fixed;
+}
+
+/* Ross Fenrick */
+.homecontent h1 {
+    font-family: 'bebas_neuebold';
+    font-size: 3rem;
+    display: block;
+    margin: 0;
+    padding: 0;
+    top: 340px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    line-height: 0.1;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.14);
+    -webkit-animation-delay: 0.35s;
+    -ms-animation-delay: 0.35s;
+    animation-delay: 0.35s;
+}
+
+/* Web Design & Development */
+.homecontent h2 {
+    font-size: 1rem;
+    letter-spacing: 0.15rem;
+    display: block;
+    margin: 0;
+    padding: 0;
+    top: 370px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    line-height: 0.1;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.14);
+    -webkit-animation-delay: 0.35s;
+    -ms-animation-delay: 0.35s;
+    animation-delay: 0.35s;
+}
+
+/* Circles */
+
+.scratch {
+    float: left;
+    margin-left: 38%;
+    margin-top: 5%;
+    width: 15%;
+    -webkit-animation-delay: 0.35s;
+    -ms-animation-delay: 0.35s;
+    animation-delay: 0.35s;
+    display: none;
+}
+
+.work {
+    float: left;
+    padding-left: 1%;
+    margin-top: 5%;
+    width: 15%;
+    -webkit-animation-delay: 0.55s;
+    -ms-animation-delay: 0.55s;
+    animation-delay: 0.55s;
+    display: none;
+}
+
+.touch {
+    float: left;
+    padding-left: 1%;
+    margin-top: 5%;
+    width: 15%;
+    -webkit-animation-delay: 0.75s;
+    -ms-animation-delay: 0.75s;
+    animation-delay: 0.75s;
+    display: none;
+}
+
+.scratch img{
+    width: 45%;
+    height: auto;
+    padding-left: 27%;
+    display: none;
+}
+
+.work img{
+    width: 45%;
+    height: auto;
+    padding-left: 27.5%;
+    display: none;
+}
+
+.touch img{
+    width: 45%;
+    height: auto;
+    padding-left: 27%;
+    display: none;
+}
+
+/* Circle text */
+.scratch p {
+    font-family: 'Open Sans Condensed', 'sans-serif';
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 1.35;
+    padding-top: 6%;
+    display: none;
+}
+
+.work p {
+    font-family: 'Open Sans Condensed', 'sans-serif';
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 1.35;
+    padding-top: 6%;
+    display: none;
+}
+
+.touch p {
+    font-family: 'Open Sans Condensed', 'sans-serif';
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 1.35;
+    padding-top: 6%;
+    display: none;  
+}
+
+
+/* Navigation */
+.resp-tabs-list {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'bebas_neuebold';
+    color: white;
+    bottom: 4px;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 99999;
+}
+
+ .resp-tabs-list li:first-child {
+
+ }
+ 
+
+.resp-tabs-list li {
+    display: inline-block;
+    font-size: 1rem;
+    font-family: 'bebas_neuebold';
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    height: 150%;
+    width: 23%;
+    margin: 0;
+    padding: 32px 0 0 0;
+    top: 0;
+
+}
+
+.resp-tab-active {
+    padding: 0;
+    margin: 0;
+    border-bottom: none !important;
+}
+
+
+
+.mobile-home {
+    background-image: url(../images/mobile-home-128.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+.mobile-work {
+    background-image: url(../images/mobile-work-128.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 32px;
+}
+
+.mobile-about {
+    background-image: url(../images/mobile-about-me-128.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 32px;
+}
+
+.mobile-touch {
+    background-image: url(../images/mobile-get-in-touch-128.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 32px;
+}
+
+/* My Work Section (Tab 2) */
+
+.my-work {
+    width: 100%;
+    margin: 2% 0 0 0;
+    padding: 0;
+    font-family: 'bebas_neuebold';
+    font-size: 1rem;
+    color: white;
+}
+
+.my-work a {
+    text-decoration: none;
+    color: white;
+}
+
+.project-left {
+    width: 45%;
+    float: left;
+    text-align: center;
+    margin-left: 5%;
+}
+
+.project-right {
+    width: 45%;
+    float: left;
+    text-align: center;
+    margin-left: 0;
+}
+
+.project-left-last {
+    width: 45%;
+    float: left;
+    text-align: center;
+    margin-left: 5%;
+    padding-bottom: 5%;
+}
+
+.project-right-last {
+    width: 45%;
+    float: left;
+    text-align: center;
+    margin-left: 0;
+    padding-bottom: 5%;
+}
+
+.web-project {
+    width: 45%;
+    height: auto;
+    padding: 6% 0 0 0%;
+}
+
+.mobile-project {
+    width: 20%;
+    height: auto;
+    padding: 6% 0 0 0%;
+}
+
+.graphic-project {
+    width: 40%;
+    height: auto;
+    padding: 6% 0 0 0%;
+}
+
+.project-type {
+    font-size: 0.75rem;
+}
+
+
+
+/* About Me Section (Tab 3) */
+.aboutme {
+    margin-top: 1%;
+    font-family: 'Open Sans Condensed', 'sans-serif';
+    font-size: 1rem;
+    text-align: justify;
+    color: white;
+}
+
+.left_column {
+    width: 90%;
+    float: none;
+    margin-left: 0%;
+    margin-top: 0%;
+    margin: 0 auto;
+}
+
+.right_column {
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 0;
+    float: left;
+    display: none;
+}
+
+.bio {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 0 0% 35%;
+    -webkit-animation-delay: 0.1s;
+    -ms-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+
+.left_column img {
+    width: 35%;
+    height: auto;
+}
+
+.bio_description {
+    -webkit-animation-delay: 0.15s;
+    -ms-animation-delay: 0.15s;
+    animation-delay: 0.15s;
+}
+
+.idea {
+    float: left;
+    width: 30%;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.research {
+    float: left;
+    width: 30%;
+    padding-left: 5%;
+}
+
+.sketch {
+    float: left;
+    width: 30%;
+    padding-left: 5%;
+}
+
+.design {
+    float: left;
+    width: 30%;
+    padding-top: 2%;
+}
+
+.develop {
+    float: left;
+    width: 30%;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+.launch {
+    float: left;
+    width: 30%;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+.idea_img {
+    width: 50%;
+    padding: 0 0 5% 25%;
+    -webkit-animation-delay: 0.05s;
+    -ms-animation-delay: 0.05s;
+    animation-delay: 0.05s;
+}
+
+.idea_description {
+    -webkit-animation-delay: 0.35s;
+    -ms-animation-delay: 0.35s;
+    animation-delay: 0.35s;
+}
+
+.research_img {
+    width: 50%;
+    padding: 0 0 5% 25%;
+    -webkit-animation-delay: 0.1s;
+    -ms-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+
+.research_description {
+    -webkit-animation-delay: 0.40s;
+    -ms-animation-delay: 0.40s;
+    animation-delay: 0.40s;
+}
+
+.sketch_img {
+    width: 50%;
+    padding: 0 0 5% 25%;
+    -webkit-animation-delay: 0.15s;
+    -ms-animation-delay: 0.15s;
+    animation-delay: 0.15s;
+}
+
+.sketch_description {
+    -webkit-animation-delay: .45s;
+    -ms-animation-delay: 0.45s;
+    animation-delay: .45s;
+}
+
+.design_img {
+    width: 50%;
+    padding: 0 0 5% 25%;
+    -webkit-animation-delay: 0.20s;
+    -ms-animation-delay: 0.20s;
+    animation-delay: 0.20s;
+}
+
+.design_description {
+    -webkit-animation-delay: .5s;
+    -ms-animation-delay: .5s;
+    animation-delay: .5s;
+}
+
+.develop_img {
+    width: 50%;
+    padding: 0 0 5% 25%;
+    -webkit-animation-delay: 0.25s;
+    -ms-animation-delay: 0.25s;
+    animation-delay: 0.25s;
+}
+
+.develop_description {
+    -webkit-animation-delay: 0.55s;
+    -ms-animation-delay: 0.55s;
+    nimation-delay: 0.55s;
+}
+
+.launch_img {
+    width: 50%;
+    padding: 0 0 5% 25%;
+    -webkit-animation-delay: 0.30s;
+    -ms-animation-delay: 0.30s;
+    animation-delay: 0.30s;
+}
+
+.launch_description {
+    -webkit-animation-delay: 0.60s;
+    -ms-animation-delay: 0.60s;
+    animation-delay: 0.60s;
+}
+
+.aboutme span {
+    font-style: italic;
+}
+
+.aboutme h1 {
+    font-family: 'bebas_neuebold';
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: none;
+    color: #fff;
+    -webkit-animation-delay: 0.35s;
+    -ms-animation-delay: 0.35s;
+    animation-delay: 0.35s;
+}
+
+.aboutme h2 {
+    font-family: 'bebas_neuebold';
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: none;
+    color: #fff;
+    -webkit-animation-delay: 0.4s;
+    -ms-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+
+.aboutme h3 {
+    font-family: 'bebas_neuebold';
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: none;
+    color: #fff;
+    -webkit-animation-delay: 0.45s;
+    -ms-animation-delay: 0.45s;
+    animation-delay: 0.45s;
+}
+
+.aboutme h4 {
+    font-family: 'bebas_neuebold';
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: none;
+    color: #fff;
+    -webkit-animation-delay: 0.5s;
+    -ms-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+
+.aboutme h5 {
+    font-family: 'bebas_neuebold';
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: none;
+    color: #fff;
+    -webkit-animation-delay: 0.55s;
+    -ms-animation-delay: 0.55s;
+    animation-delay: 0.55s;
+}
+
+.aboutme h6 {
+    font-family: 'bebas_neuebold';
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: none;
+    color: #fff;
+    -webkit-animation-delay: 0.60s;
+    -ms-animation-delay: 0.60s;
+    animation-delay: 0.60s;
+}
+
+form {
+  margin: 0 auto;
+  width: 100%;
+}
+
+div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* To make sure that all label have the same size and are properly align */
+  display: inline;
+}
+
+input, textarea {
+  /* To make sure that all text field have the same font settings
+     By default, textarea are set with a monospace font */
+  font-size: 1.25rem;
+  font-family: 'Open Sans Condensed', 'sans-serif';
+
+  /* To give the same size to all text field */
+  width: 100%;
+
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+
+  /* To harmonize the look & feel of text field border */
+  border: 2px solid #fff;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+textarea {
+  /* To properly align multiline text field with their label */
+  vertical-align: top;
+
+  /* To give enough room to type some text */
+  height: auto;
+
+  /* To allow users to resize any textarea vertically
+     It works only on Chrome, Firefox and Safari */
+  resize: vertical;
+}
+
+.buttonform {
+    padding-top: 1%;
+    text-align: center;
+}
+
+#send {
+    border: 2px solid white;
+    background: none;
+    color: white;
+    font-size: 1.75rem;
+    font-family: 'Open Sans Condensed', 'sans-serif';
+    padding: 2px 20px 2px 20px;
+}
+
+button {
+  /* This extra magin represent the same space as the space between
+     the labels and their text fields */
+  margin-left: .5em;
+}
+
+#msg {
+    width: 90%;
+    margin: 5% 0 0 5%;
+    background-color: rgba(0,0,0,0);
+    padding: 10px;
+}
+
+#name {
+    width: 90%;
+    float: left;
+    margin: 5% 0 0 5%;
+    display: inline;
+    background-color: rgba(0,0,0,0);
+    height: 5%;
+    padding: 10px;
+}
+
+#mail {
+    width: 90%;
+    margin: 5% 0 0 5%;
+    padding: 0;
+    float: left;
+    display: inline;
+    background-color: rgba(0,0,0,0);
+    padding: 10px;
+}
+
+::-webkit-input-placeholder {
+   color: white;
+   font-family: 'Open Sans Condensed', 'sans-serif';
+   vertical-align: top;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;  
+}
+
+:-ms-input-placeholder {  
+   color: white;  
+}
+
+#mail:focus::-webkit-input-placeholder {
+  transition: opacity 0.5s 0.5s ease; 
+  opacity: 0;
+}
+
+#name:focus::-webkit-input-placeholder {
+  transition: opacity 0.5s 0.5s ease; 
+  opacity: 0;
+}
+
+#msg:focus::-webkit-input-placeholder {
+  transition: opacity 0.5s 0.5s ease; 
+  opacity: 0;
+}
+
+.name {
+    display: inline;
+}
+
+.mails {
+    display: inline;
+}
+
+.msg {
+    padding-top: 1%;
+}
+
+.together {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Open Sans Condensed', 'sans-serif';
+    padding: 2% 0 0% 0;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.to-do {
+    font-size: 3rem;
+}
+
+.contact {
+    font-family: 'Open Sans Condensed', 'sans-serif';
+    color: white;
+    font-size: 1.25rem;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2%;
+    display: none;
+}
+
+.linkedinbox {
+    width: 18%;
+    float: left;
+    margin-left: 20%;
+    margin-top: 0em;
+}
+
+.phonebox {
+    width: 18%;
+    float: left;
+    padding-left: 3%;
+}
+
+.mailbox {
+    width: 18%;
+    float: left;
+    padding-left: 3%;
+}
+
+
+}/*-----------End of Media Query for Home Tab 0 - 749px -----------*/
