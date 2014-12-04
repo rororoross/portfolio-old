@@ -3,23 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="robots" content="noindex, nofollow">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Ross Fenrick Web Design & Development</title>
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-<link rel="stylesheet" type="text/css" href="css/mobile-styles.css"/>
-<link rel="stylesheet" type="text/css" href="css/animate.css"/>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-  <script src="js/jquery-1.10.2.js"></script>
-  <script src="js/jquery.ui.core.js"></script>
-  <script src="js/jquery.ui.widget.js"></script>
-  <script src="js/jquery.ui.tabs.js"></script>
-  <script>
-  $(function() {
-    $( "#tabs" ).tabs();
-  });
-  </script>
+<link rel="stylesheet" type="text/css" href="css/summerfest.css"
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -31,27 +21,94 @@
     </script>
 </head>
 <body>	
-	<header class="animated fadeInDown">
-		<nav>
-			<ul>
-				<li class="home"><a href="http://www.rossfenrick.com">< Back to Home</a></li>
-				<li class="previous"><a href="midwife.html">Previous Project</a></li>
-				<li class="next"><a href="urbangardens.html">Next Project</a></li>
-			</ul>
-		</nav>
+	<header id="summerfest-header">
+		<img id="header-phone" src="images/summerfest-header-phone.png">
+		<a id="back" href="http://www.rossfenrick.com/#horizontalTab2">back</a>
 	</header>
+	<h1>Redesigning the Summerfest App</h1>
+	<main>
+		<article id="intro">
+			<p><span>Summerfest:</span> a yearly music festival held at Henry Maier Festival Park along the lakefront in Milwaukee, Wisconsin. The festival lasts for 11 days, is made up of 11 stages with performances from over 700 bands, running from late June through early July. Summerfest attracts between 800,000 and 1,000,000 people each year, promoting itself as "The World's Largest Music Festival".</p></br>
 
-	<div class="container">
-		<div class="desktop animated slideInUp"><img src="images/flat-summerfest-mobile-work.png">
-		</div>
-		
-		<article class="animated fadeInDown">
-			<h1>Summerfest App Concept</h1>
-			<h2>Mobile Design</h2>
-			<p>I redesigned the current Summerfest app for my final project in my Interactive Design course. I updated it to a more modern, iOS7 feel. Fixed navigation on the bottom, and an ever-present search bar on the top allows the user to quickly and easily find information about the band they want to see or the stage they want to visit. I fit more information into less pages, creating a more seamless user experience. </p>
+			<p>For my final project in my Interaction Design course we we’re tasked with completely redesigning any app of our choice. As an avid Summerfest attendee I decided to pick this app because I had used it before and thought it could use a complete overhaul. I like to work on things that I myself have used and will use in the future. Not only did the app need some serious visual and design work, but the user experience left a lot to be desired.</p>
 		</article>
-		<div class="view animated fadeInUp">
-			<a href="summerfest2.html" target="_blank">view the Project</a>
-		</div>
-	</div>
+
+		<article id="synopsis">
+			<h3>Their old version: </h3> (click for full view)
+			<a href="images/summerfest-full.jpg" target=_blank><img class="lineup" src="images/summerfest-old-lineup.jpg"></a>
+			</br></br></br></br>
+			<h3>My redesign: </h3> (click for full view)
+			<a href="images/summerfest-full-new.jpg" target=_blank><img class="lineup" src="images/summerfest-new-lineup.jpg"></a></br></br></br>
+
+			<h2>Synopsis:</h2>
+			<p><a href="#">The first thing I do when starting a project</a> is to sit down and ask myself some simple yet important questions:</p></br></br>
+
+			<h4>What is this project trying to accomplish and how can I best go about achieving that?</h4>
+			<p class="indent">Since this was for my design course I obviously wanted the app to be more visually appealing. Whenever I design for mobile I try to keep it simple, minimal and clean. Although this was the primary objective, I also wanted to improve the experience of the app. Both myself and my Summerfest-attending friends had used the app and we seemed to all agree it could be better from an UX perspective.</p></br></br>
+			
+			<h4>If I were using this, what would I want from the experience?</h4>
+				<p class="indent">If I’m using this app I will most likely want a few simple questions immediately answered: 
+				</p>
+					<ol>
+						<li>1) Who’s playing right now and where are they playing?</li>
+						<li>2) Who’s playing later / in the future and when/where?</li>
+						<li>3) How do I find the stage I want to go to?</li>
+					</ol></br></br>
+
+				<p>Whenever I had to make a major design or UX decision I came back to those three questions.</p>
+		</article>
+
+		<article id="search">
+			<h2>Redesigning the search</h2>
+			<p>After creating wireframes and flowcharts of the current app I immediately noticed a few things that could be improved upon. The first major decision I made was to redesign the search process.</p></br>
+
+			<p class="indent">Searching for and viewing your result required 6 steps from the user:</p>
+				<ol>
+					<li>Be on the Schedule tab, as that is the only place the search icon is present.</li>
+					<li>Select the icon to be brought to the search page.</li>
+					<li>Type in their search and press enter.</li>
+					<li>Press the search button.</li>
+					<li>Be brought to a new screen displaying the result(s).</li>
+					<li>Select result to be taken to another page displaying the information they want.</li>
+				</ol></br></br>
+				<img class="search-old" src="images/search-old-summerfest.jpg">
+				<p>I immediately recognized this as something that could be simplified and improved.
+				The first decision I made was to include the search bar on every single page of the app. Not only does this give the search feature a more prominent role, but it removes some redundant steps and pages. The search result is displayed in the search bar itself. I made the result image smaller and used that space to provide a simple wiki description of the band. With so many bands playing (over 700!), people generally won’t know the majority of them and are probably fans of a certain style of music (ie they might not know Rise Against, but they like punk music). This info can help them choose their viewing experience.</p>
+				<img class="search-new" src="images/search-new-summerfest.jpg">
+		</article>
+
+		<article id="schedule">
+			<h2>Redesigning the schedule</h2>
+			<p>The next step was to redesign what I believed to be the most important part of the app: the schedule. The schedule contains some basic yet important information: Who’s playing, when, and where.</p></br>
+			<img class="lineup" src="images/schedule.jpg"></br></br></br>
+			<p class="indent">I decided to go with an all capitalized, bold font for the artist name and a smaller, lighter, italicized font for all of the stage names, while using a normal font for the times. This accomplishes a few things. First, by separating information by font type and style it helps the user digest and process the information easier. I chose to bold and capitalize the artists to grab attention, as I believed the artists to be the most important piece of information.</p></br>
+
+			<p>Instead of a seemingly random order like on the left, it’s now ordered by time. The times are aligned far left to allow separation between the artist & stage name. A simple gray border helps distinguish between list items.</p>
+		</article>
+
+		<article id="design">
+			<h2>Design choices</h2>
+			<img class="lineup" src="images/design.jpg"></br></br></br>
+			<p>Since I didn’t have access to the actual font Summerfest uses, I decided to go with Open Sans, which is very similar and has a lot different weights and styles. It is the only font used throughout the app. I went away from the gradients, the light blue icon colors and black backgrounds. I decided on a clean, white background with black, grey, and red being the only other colors used. All text is black or grey, with the active icon being red.</p></br></br></br>
+			<img class="lineup" src="images/launch.jpg"></br></br></br>
+			<p>Although the launch screen is very simple and is only seen for maybe a second, I thought it was a good example of my design principle for the app. Less clutter. Cleaner. Sleek. Uncomplicated.</p>
+		</article>
+
+		<article id="stages">
+			<h2>Introducing Stages</h2>
+			<p>As a Summerfest attendee I always find myself at a certain stage for most of one night and at another for the next night. Stages tend to schedule similar acts throughout the night. For example, if the headliner at night is a hip-hop act, the stage will have similar hip-hop acts throughout the day. It’s also generally easier to stick around one area for the night when you’re there with a group of friends. Using all this experience and information I decided to make stages a more focal point of the app.</p></br>
+			<img class="lineup" src="images/stages.jpg"></br></br></br>
+			<p>Stages use a list view similar to the Schedule, listed in alphabetical order. A picture and brief synopsis of the stage is given, as well as a schedule of the upcoming shows. A 'see on map' button will show the user exactly where the stage is located.</p>
+		</article>
+
+		<article id="more-info">
+			<h2>More Info...</h2>
+			<p>The last portion of the app I remade was the more info section. I got rid of the three tabs at the top. This just led to more and unnecessary user input.</p>
+			<img class="more-info" src="images/more-info-old.jpg">
+			<img class="lineup" src="images/more-info-new.jpg"></br></br></br>
+			<p>Dates, Hours, Prices are all listed first in a simple list with plenty of white space to make for easy reading. This is followed by a more detailed breakdown of the festival. I got rid of the large images to allow the entire section to be smaller. This allows for more information to be displayed at once, getting rid of unnecessary scrolling.</p></br></br>
+			<p>Thanks for reading! If you have any questions feel free to send me an email at hello@rossfenrick.com</p></br></br></br></br></br>
+		</article>
+		<a href="#summerfest-header">Back to top</a></br></br>
+	</main>
 </body>

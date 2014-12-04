@@ -228,7 +228,6 @@ body {
     width: 100%;
     margin: 2% 0 0 0;
     padding: 0;
-    font-family: 'bebas_neuebold';
     font-size: 2rem;
     color: white;
 }
@@ -1438,7 +1437,6 @@ body {
     width: 100%;
     margin: 2% 0 0 0;
     padding: 0;
-    font-family: 'bebas_neuebold';
     font-size: 1rem;
     color: white;
 }
@@ -1924,3 +1922,16 @@ button {
 
 
 }/*-----------End of Media Query for Home Tab 0 - 749px -----------*/
+
+
+
+
+
+@media only screen and (max-width:885px) {
+
+
+.right_column {
+    width: 55%;
+}
+
+}

@@ -6,102 +6,137 @@ figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,ti
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
-section {	display: block;}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}
-blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}table {	border-collapse: collapse;	border-spacing: 0;}
+section {	display: block;}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, 
+q {	quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}
+table {	border-collapse: collapse;	border-spacing: 0;}
 
 body {
-	width: 200%;
-	height: 200%;
-	font-family: 'Roboto Condensed', sans-serif;
-}
-
-header {
-	padding: 10px;
-	font-size: 1.5rem;
-}
-
-.phone {
-	width: 11%;
-	padding-top: 15px;
-}
-
-#phone2 {
-	-webkit-animation-delay: 0.25s;
-}
-
-#phone3 {
-	-webkit-animation-delay: 0.5s;
-}
-
-#phone4 {
-	-webkit-animation-delay: 0.75s;
-}
-
-#phone5 {
-	-webkit-animation-delay: 1s;
-}
-
-#phone6 {
-	-webkit-animation-delay: 1.25s;
-}
-
-#phone7 {
-	-webkit-animation-delay: 1.50s;
-}
-
-#phone8 {
-	-webkit-animation-delay: 1.75s;
-}
-
-#phone9 {
-	-webkit-animation-delay: 2s;
-	padding-right: 1%;
-}
-
-/*-----------Media Query for Home Tab 800px - 1100px -----------*/
-@media only screen and (min-width:50em) and (max-width:68.75em) {
-
-body {
-	width: 250%;
-	height: 200%;
-	font-family: 'Roboto Condensed', sans-serif;
-}
-
-.phone {
-	width: 12.5%;
-	padding-top: 15px;
-}
+	font-family: 'Open Sans', sans-serif;
 
 }
 
-/*-----------Media Query for Home Tab 660px - 800px -----------*/
-@media only screen and (min-width:41.25em) and (max-width:50em) {
-
-body {
-	width: 440%;
-	height: 200%;
-	font-family: 'Roboto Condensed', sans-serif;
+#summerfest-header {
+	background-image: url('../images/summerfest-header.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	width: 100%;
 }
 
-.phone {
-	width: 12%;
-	padding-top: 15px;
+#header-phone {
+	margin: 0 auto;
+	display: block;
+	padding-top: 26px;
+	width: 220px;
+	height: auto;
 }
 
+#back {
+	padding: 12px;
+	color: white;
+	position: absolute;
+	top: 0;
 }
 
-/*-----------Media Query for Home Tab 0px - 660px -----------*/
-@media only screen and (min-width:0em) and (max-width:41.25em) {
-
-body {
-	width: 560%;
-	height: 200%;
-	font-family: 'Roboto Condensed', sans-serif;
+h1 {
+	font-size: 3rem;
+	font-weight: 700;
+	text-align: left;
+	width: 55%;
+	margin: 0 auto;
+	padding-top: 44px;
+	max-width: 1046px;
 }
 
-.phone {
-	width: 11%;
-	padding-top: 15px;
+h2 {
+	font-size: 2.5rem;
+	font-weight: 700;
+	font-style: italic;
+	padding-top: 18px;
+	padding-bottom: 24px;
 }
 
+h3 {
+	font-size: 2rem;
+	font-weight: 700;
+	display: inline;
+}
+
+h4 {
+	font-size: 1.2rem;
+	font-weight: 600;
+	font-style: italic;
+	padding-bottom: 12px;
+}
+
+p {
+	font-weight: 300;
+	line-height: 2rem;
+}
+
+main {
+	width: 55%;
+	margin: 0 auto;
+	padding-top: 32px;
+	max-width: 1046px;
+}
+
+main span {
+	font-weight: 700;
+	font-style: italic;
+}
+
+article {
+	padding-bottom: 36px;
+	max-width: 1046px;
+}
+
+#synopsis {
+	padding-top: 48px;
+}
+
+.lineup {
+	width: 100%;
+	padding-top: 12px;
+	max-width: 1046px;
+}
+
+.indent {
+	text-indent: 2rem;
+}
+
+ol li {
+	padding-left: 4rem;
+	line-height: 2rem;
+}
+
+.search-old, .search-new {
+	margin: 0 auto;
+	display: block;
+	padding-bottom: 36px;
+	width: 100%;
+}
+
+.search-new {
+	padding-bottom: 0;
+}
+
+.more-info {
+	width: 45%;
+	margin: 0 auto;
+	display: block;
+	padding-bottom: 36px;
+}
+
+@media only screen and (max-width:900px) {
+	main { width: 90%; }
+	h1 { width: 90%; }
+}
+
+@media only screen and (max-width:480px) {
+	#summerfest-header { height: 400px; }
+	#header-phone { padding-top: 42px; width: 160px; }
+	main { width: 95%; }
+	h1 { font-size: 2rem; width: 95%; }
 }
